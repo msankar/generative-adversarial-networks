@@ -12,8 +12,12 @@ Examine real life applications of GANs.
 * https://www.thispersondoesnotexist.com/
 
 * [Pretrained model exploration](https://colab.research.google.com/github/https-deeplearning-ai/GANs-Public/blob/master/C1W1_Colab_Pre_trained_model_exploration.ipynb)
+https://colab.research.google.com/github/https-deeplearning-ai/GANs-Public/blob/master/C1W1_(Colab)_Pre_trained_model_exploration.ipynb
+
 
 * [Inputs to a pretrained GAN](https://colab.research.google.com/github/https-deeplearning-ai/GANs-Public/blob/master/C1W1_Colab_Inputs_to_a_pre_trained_GAN.ipynba)
+https://colab.research.google.com/github/https-deeplearning-ai/GANs-Public/blob/master/C1W1_(Colab)_Inputs_to_a_pre_trained_GAN.ipynb
+
 
 * Hyperspherical Variational Auto-Encoders (Davidson, Falorsi, De Cao, Kipf, and Tomczak, 2018): https://www.researchgate.net/figure/Latent-space-visualization-of-the-10-MNIST-digits-in-2-dimensions-of-both-N-VAE-left_fig2_324182043
 
