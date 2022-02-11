@@ -16,3 +16,6 @@ Understand how to effectively control your GAN, modify the features in a generat
 
 * CelebFaces Attributes Dataset (CelebA): http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
 
+* Conditional Generative Adversarial Nets (Mirza and Osindero, 2014): https://arxiv.org/abs/1411.1784
+
+*  InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets by Chen et. al https://arxiv.org/abs/1606.03657
