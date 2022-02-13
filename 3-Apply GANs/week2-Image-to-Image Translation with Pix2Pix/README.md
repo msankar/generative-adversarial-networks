@@ -1,39 +1,47 @@
-# Evaluation of GANs
+# Image-to-Image Translation with Pix2Pix
 
-Understand the challenges of evaluating GANs, learn about the advantages and disadvantages of different GAN performance measures, and implement the Fréchet Inception Distance (FID) method using embeddings to assess the accuracy of GANs!
+Understand image-to-image translation, learn about different applications of this framework, and implement a U-Net generator and Pix2Pix, a paired image-to-image translation GAN!
 
 ## Learning Objectives
 
-Differentiate across different evaluation metrics and their pros/cons.
-Justify the use of feature embeddings in GAN evaluation.
-Evaluate your GANs by implementing Fréchet Inception Distance (FID) and Inception Score.
+- Learn and leverage the image-to-image translation framework.
+- Identify extensions, generalizations, and applications of this framework to modalities beyond images.
+- Implement a paired image-to-image translation GAN, called Pix2Pix, to turn satellite images into map routes (and vice versa), with advanced U-Net generator and PatchGAN discriminator architectures.
 
 
 ## Reading
 
-* StyleGAN - Official TensorFlow Implementation: https://github.com/NVlabs/stylegan
+* DeOldify... (Antic, 2019): https://twitter.com/citnaj/status/1124904251128406016
 
-* Stanford Vision Lab: http://vision.stanford.edu/
+* pix2pixHD (Wang et al., 2018): https://github.com/NVIDIA/pix2pixHD
 
-* Review: Inception-v3 — 1st Runner Up (Image Classification) in ILSVRC 2015 (Tsang, 2018): https://medium.com/@sh.tsang/review-inception-v3-1st-runner-up-image-classification-in-ilsvrc-2015-17915421f77c
+* [4k, 60 fps] Arrival of a Train at La Ciotat (The Lumière Brothers, 1896) (Shiryaev, 2020): https://youtu.be/3RYNThid23g
 
-* HYPE: A Benchmark for Human eYe Perceptual Evaluation of Generative Models (Zhou et al., 2019): https://arxiv.org/abs/1904.01121
+* Image-to-Image Translation with Conditional Adversarial Networks (Isola, Zhu, Zhou, and Efros, 2018): https://arxiv.org/abs/1611.07004
 
-* Improved Precision and Recall Metric for Assessing Generative Models (Kynkäänniemi, Karras, Laine, Lehtinen, and Aila, 2019): https://arxiv.org/abs/1904.06991
+* Pose Guided Person Image Generation (Ma et al., 2018): https://arxiv.org/abs/1705.09368
 
-* Large Scale GAN Training for High Fidelity Natural Image Synthesis (Brock, Donahue, and Simonyan, 2019): https://arxiv.org/abs/1809.11096
+* AttnGAN: Fine-Grained Text to Image Generation with Attentional Generative Adversarial Networks (Xu et al., 2017): https://arxiv.org/abs/1711.10485
 
-* CelebFaces Attributes Dataset (CelebA): http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
+* Few-Shot Adversarial Learning of Realistic Neural Talking Head Models (Zakharov, Shysheya, Burkov, and Lempitsky, 2019): https://arxiv.org/abs/1905.08233
 
-* ImageNet: http://www.image-net.org/
+* Patch-Based Image Inpainting with Generative Adversarial Networks (Demir and Unal, 2018): https://arxiv.org/abs/1803.07422
 
-* The Fréchet Distance between Multivariate Normal Distributions (Dowson and Landau, 1982): https://core.ac.uk/reader/82269844
+* Image Segmentation Using DIGITS 5 (Heinrich, 2016): https://developer.nvidia.com/blog/image-segmentation-using-digits-5/
 
-* Fréchet Inception Distance (Jean, 2018): https://nealjean.com/ml/frechet-inception-distance/
-
-* GAN — How to measure GAN performance? (Hui, 2018): https://medium.com/@jonathan_hui/gan-how-to-measure-gan-performance-64b988c47732
-
-* A Note on the Inception Score (Barratt and Sharma, 2018): https://arxiv.org/abs/1801.01973
+* Stroke of Genius: GauGAN Turns Doodles into Stunning, Photorealistic Landscapes (Salian, 2019): https://blogs.nvidia.com/blog/2019/03/18/gaugan-photorealistic-landscapes-nvidia-research/
 
 
+* Crowdsourcing the creation of image segmentation algorithms for connectomics (Arganda-Carreras et al., 2015): https://www.frontiersin.org/articles/10.3389/fnana.2015.00142/full
 
+* U-Net: Convolutional Networks for Biomedical Image Segmentation (Ronneberger, Fischer, and Brox, 2015): https://arxiv.org/abs/1505.04597
+
+* [Semantic Image Synthesis with Spatially-Adaptive Normalization](https://arxiv.org/abs/1903.07291)
+
+* [Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network](https://arxiv.org/abs/1609.04802)
+
+* SRGAN https://colab.research.google.com/github/https-deeplearning-ai/GANs-Public/blob/master/C3W2_SRGAN_(Optional).ipynb
+
+* [High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs](https://arxiv.org/abs/1711.11585)
+
+* Pix2PixHD https://colab.research.google.com/github/https-deeplearning-ai/GANs-Public/blob/master/C3W2_Pix2PixHD_(Optional).ipynb

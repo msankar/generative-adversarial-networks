@@ -1,39 +1,34 @@
-# Evaluation of GANs
+# Unpaired Translation with CycleGAN
 
-Understand the challenges of evaluating GANs, learn about the advantages and disadvantages of different GAN performance measures, and implement the Fréchet Inception Distance (FID) method using embeddings to assess the accuracy of GANs!
+Understand how unpaired image-to-image translation differs from paired translation, learn how CycleGAN implements this model using two GANs, and implement a CycleGAN to transform between horses and zebras!
 
 ## Learning Objectives
 
-Differentiate across different evaluation metrics and their pros/cons.
-Justify the use of feature embeddings in GAN evaluation.
-Evaluate your GANs by implementing Fréchet Inception Distance (FID) and Inception Score.
+* Compare paired image-to-image translation to unpaired image-to-image translation.
+* Identify how their key difference necessitates a different GAN architecture.
+* Implement unpaired image-to-image translation model, called CycleGAN, to adapt horses to zebras (and vice versa) with two GANs in one.
 
 
 ## Reading
 
-* StyleGAN - Official TensorFlow Implementation: https://github.com/NVlabs/stylegan
+* Image-to-Image Translation with Conditional Adversarial Networks (Isola, Zhu, Zhou, and Efros, 2018): https://arxiv.org/abs/1611.07004
 
-* Stanford Vision Lab: http://vision.stanford.edu/
+* Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks (Zhu, Park, Isola, and Efros, 2020): https://arxiv.org/abs/1703.10593
 
-* Review: Inception-v3 — 1st Runner Up (Image Classification) in ILSVRC 2015 (Tsang, 2018): https://medium.com/@sh.tsang/review-inception-v3-1st-runner-up-image-classification-in-ilsvrc-2015-17915421f77c
+* PyTorch implementation of CycleGAN (2017): https://github.com/togheppi/CycleGAN
 
-* HYPE: A Benchmark for Human eYe Perceptual Evaluation of Generative Models (Zhou et al., 2019): https://arxiv.org/abs/1904.01121
+* Distribution Matching Losses Can Hallucinate Features in Medical Image Translation (Cohen, Luck, and Honari, 2018): https://arxiv.org/abs/1805.08841
 
-* Improved Precision and Recall Metric for Assessing Generative Models (Kynkäänniemi, Karras, Laine, Lehtinen, and Aila, 2019): https://arxiv.org/abs/1904.06991
+* Data augmentation using generative adversarial networks (CycleGAN) to improve generalizability in CT segmentation tasks (Sandfort, Yan, Pickhardt, and Summers, 2019): https://www.nature.com/articles/s41598-019-52737-x.pdf
 
-* Large Scale GAN Training for High Fidelity Natural Image Synthesis (Brock, Donahue, and Simonyan, 2019): https://arxiv.org/abs/1809.11096
+* Unsupervised Image-to-Image Translation (NVIDIA, 2018): https://github.com/mingyuliutw/UNIT
 
-* CelebFaces Attributes Dataset (CelebA): http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
+* Multimodal Unsupervised Image-to-Image Translation (Huang et al., 2018): https://github.com/NVlabs/MUNIT
 
-* ImageNet: http://www.image-net.org/
+* PyTorch-CycleGAN (2017): https://github.com/aitorzip/PyTorch-CycleGAN/blob/master/datasets.py
 
-* The Fréchet Distance between Multivariate Normal Distributions (Dowson and Landau, 1982): https://core.ac.uk/reader/82269844
+* Horse and Zebra Images Dataset: https://people.eecs.berkeley.edu/~taesung_park/CycleGAN/datasets/horse2zebra.zip
 
-* Fréchet Inception Distance (Jean, 2018): https://nealjean.com/ml/frechet-inception-distance/
-
-* GAN — How to measure GAN performance? (Hui, 2018): https://medium.com/@jonathan_hui/gan-how-to-measure-gan-performance-64b988c47732
-
-* A Note on the Inception Score (Barratt and Sharma, 2018): https://arxiv.org/abs/1801.01973
-
+* [MUNIT](Multi-modal Unsupervised Image-to-Image Translation) https://colab.research.google.com/github/https-deeplearning-ai/GANs-Public/blob/master/C3W3_MUNIT_(Optional).ipynb
 
 
